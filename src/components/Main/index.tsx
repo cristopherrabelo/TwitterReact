@@ -27,6 +27,6 @@ const Main: React.FC = () => {
         </BottomMenu>
     </Container>
   );
-}
+};
 
 export default Main;

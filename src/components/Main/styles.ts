@@ -6,11 +6,11 @@ export const Container = styled.div`
   display:flex;
   flex-direction: column;
 
-  width: min-content(601px, 100%);
+  width: min(601px, 100%);
   
   @media ( min-width: 500px ) {
-    border-left: 1px solido var(--outline);
-    border-right: 1px solido var(--outline);
+    border-left: 1px solid var(--outline);
+    border-right: 1px solid var(--outline);
   }
 `;
 

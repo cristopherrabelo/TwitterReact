@@ -137,7 +137,7 @@ export const Avatar = styled.div`
     background: var(--gray);
     
 `;
-export const ProfileData = styled(ExitToApp)`
+export const ProfileData = styled.div`
     display:none;
     
     @media(min-width: 1280px){
