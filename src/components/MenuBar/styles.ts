@@ -155,12 +155,12 @@ export const ProfileData = styled.div`
 export const ExitIcon = styled(ExitToApp)`
     display:none;
 
-    @media(min-width){
+    @media(min-width: 1280px){
         display: inline-block;
         width: 25px;
         height: 25px;
         color: var(--white);
-        margin-left: 30px;
+        margin-left: 90px;
         cursor: pointer;
 
         &:hover{
